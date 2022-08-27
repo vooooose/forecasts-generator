@@ -65,6 +65,6 @@ button.addEventListener('click', function() {
             break;
     }
 
-    let procent = getRandomValue(0, 100);
+    let procent = getRandomValue(0, 101);
     forecastProbability.textContent = 'Вероятность: ' + procent + '%';
 })
